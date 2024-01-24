@@ -26,7 +26,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 60%;
+  width: 530px;
+  height: 330px;
   border-radius: 1rem;
   background: var(--Dark-Grayish-Blue);
   padding: 2rem;
@@ -59,7 +60,7 @@ body {
   padding: 1rem;
   border-radius: 50%;
   background: var(--Neon-Green);
-  bottom: -4rem;
+  bottom: -2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -77,7 +78,7 @@ body {
   outline: 0.25px solid rgb(253, 253, 253);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   .wrapper {
     width: 90%;
   }
